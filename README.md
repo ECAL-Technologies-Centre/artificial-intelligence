@@ -11,3 +11,6 @@ Installing on Ubuntu
 Quick overview of image properties in folder example
 
 `identify *.jpg`
+
+Get the colorspace of all jpegs in a folder
+`identify -format %[colorspace] *.jpg`
