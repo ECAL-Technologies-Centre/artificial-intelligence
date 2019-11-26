@@ -19,3 +19,6 @@ Get the colorspace of all jpegs in a folder
 Get the colorspace of all jpegs in a folder with newlines
 
 `identify -format "%[colorspace]\n" *.jpg`
+
+# GPU Services
+Paperspace, can be used normally or with their job runner service called gradient. 
